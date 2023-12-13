@@ -12,10 +12,8 @@ let package = Package(
             name: "XcFrameWork",
             targets: ["XcFrameWork"]),
     ],
-    dependencies: [.package(url:"https://github.com/abhasar1008/SwiftPackageManagerXcframeWork", from:"1.0.0")],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        .binaryTarget(name:"TestingFramework", url:"https://github.com/abhasar1008/SwiftPackageManagerXcframeWork/blob/main/XcFrameWork/Sources/TestingFramework.xcframework.zip", checksum:"c816c6f98038ba954949c07733e1e0bd9d429e47a3d336d2af89520834a3bf4e"),
         .target(
             name: "XcFrameWork"),
         .testTarget(
