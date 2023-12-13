@@ -1,0 +1,630 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConstanantKey",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConstanantKey"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManager",
+                "printedName": "ConstanantKey.NetworkManager",
+                "usr": "s:13ConstanantKey14NetworkManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ConstanantKey14NetworkManagerCACycfc",
+            "mangledName": "$s13ConstanantKey14NetworkManagerCACycfc",
+            "moduleName": "ConstanantKey",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13ConstanantKey14NetworkManagerC",
+        "mangledName": "$s13ConstanantKey14NetworkManagerC",
+        "moduleName": "ConstanantKey",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConstanantKey",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConstanantKey"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "ConstanantKey"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConstanantKey",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConstanantKey"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIClientConfiguration",
+        "printedName": "APIClientConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIClientConfiguration",
+                "printedName": "ConstanantKey.APIClientConfiguration",
+                "usr": "s:13ConstanantKey22APIClientConfigurationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ConstanantKey22APIClientConfigurationC6sharedACvpZ",
+            "mangledName": "$s13ConstanantKey22APIClientConfigurationC6sharedACvpZ",
+            "moduleName": "ConstanantKey",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIClientConfiguration",
+                    "printedName": "ConstanantKey.APIClientConfiguration",
+                    "usr": "s:13ConstanantKey22APIClientConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConstanantKey22APIClientConfigurationC6sharedACvgZ",
+                "mangledName": "$s13ConstanantKey22APIClientConfigurationC6sharedACvgZ",
+                "moduleName": "ConstanantKey",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIClientConfiguration",
+                    "printedName": "ConstanantKey.APIClientConfiguration",
+                    "usr": "s:13ConstanantKey22APIClientConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConstanantKey22APIClientConfigurationC6sharedACvsZ",
+                "mangledName": "$s13ConstanantKey22APIClientConfigurationC6sharedACvsZ",
+                "moduleName": "ConstanantKey",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConstanantKey22APIClientConfigurationC6sharedACvMZ",
+                "mangledName": "$s13ConstanantKey22APIClientConfigurationC6sharedACvMZ",
+                "moduleName": "ConstanantKey",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ConstanantKey22APIClientConfigurationC7baseURLSSSgvp",
+            "mangledName": "$s13ConstanantKey22APIClientConfigurationC7baseURLSSSgvp",
+            "moduleName": "ConstanantKey",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConstanantKey22APIClientConfigurationC7baseURLSSSgvg",
+                "mangledName": "$s13ConstanantKey22APIClientConfigurationC7baseURLSSSgvg",
+                "moduleName": "ConstanantKey",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConstanantKey22APIClientConfigurationC7baseURLSSSgvs",
+                "mangledName": "$s13ConstanantKey22APIClientConfigurationC7baseURLSSSgvs",
+                "moduleName": "ConstanantKey",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConstanantKey22APIClientConfigurationC7baseURLSSSgvM",
+                "mangledName": "$s13ConstanantKey22APIClientConfigurationC7baseURLSSSgvM",
+                "moduleName": "ConstanantKey",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13ConstanantKey22APIClientConfigurationC",
+        "mangledName": "$s13ConstanantKey22APIClientConfigurationC",
+        "moduleName": "ConstanantKey",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIClient",
+        "printedName": "APIClient",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchData",
+            "printedName": "fetchData(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConstanantKey9APIClientC9fetchData10completionyys6ResultOy10Foundation0E0Vs5Error_pGc_tFZ",
+            "mangledName": "$s13ConstanantKey9APIClientC9fetchData10completionyys6ResultOy10Foundation0E0Vs5Error_pGc_tFZ",
+            "moduleName": "ConstanantKey",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13ConstanantKey9APIClientC",
+        "mangledName": "$s13ConstanantKey9APIClientC",
+        "moduleName": "ConstanantKey",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 852,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 29,
+      "value": "\"Internet connectivity issue\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1034,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1468,
+      "length": 25,
+      "value": "\"error=\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1611,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1748,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1759,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2098,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "Dictionary",
+      "offset": 2338,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "Array",
+      "offset": 2352,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2566,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2871,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2994,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/networkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3120,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 658,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 838,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1000,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1097,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/Reachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/KeyValueSet.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 110,
+      "value": "\"Base URL is not set. Call APIClientConfiguration.shared.baseURL = \"your-base-url\" before making API calls.\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/KeyValueSet.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 16,
+      "value": "\"get\/currencies\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/KeyValueSet.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 192,
+      "value": "\"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZXZhZG1pbjIwfDEiLCJpYXQiOjE3MDEwODU1ODUsImV4cCI6MTcwMjM4MTU4NX0.FTz9COxTqSxhbnmlcojCRBqQmSYZ2caDLvxbzogO1SXaOV2NZBwaHTW8COcJeKmYFBdFuGka6bEGiSWZWQBXvg\""
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/KeyValueSet.swift",
+      "kind": "Dictionary",
+      "offset": 1027,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/anand.bhavsar\/Documents\/Ios\/Project\/IOS\/DEMO\/Swift\/Framework\/ConstanantKey\/ConstanantKey\/KeyValueSet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1099,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

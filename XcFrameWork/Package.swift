@@ -30,8 +30,8 @@ import PackageDescription
 let package = Package(
     name: "XcFrameWork",
     platforms: [
-        .iOS(.v11),
-        .tvOS(.v11)
+        .iOS(.v12),
+        .tvOS(.v12)
     ],
     products: [
         .library(
@@ -42,8 +42,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "XcFrameWork",
-            url: "https://bitbucket.org/usercentricscode/usercentrics-spm-sdk/downloads/Usercentrics-2.10.0.xcframework.zip",
-            checksum: "240bc1dea39a342ee272cbc61fa5629ae860012c218dca113d99296d914c844a"
+            url: "https://github.com/abhasar1008/SwiftPackageManagerXcframeWork/blob/main/XcFrameWork/TestingFramework.xcframework.zip",
+            checksum: "c816c6f98038ba954949c07733e1e0bd9d429e47a3d336d2af89520834a3bf4e"
         ),
     ]
 )

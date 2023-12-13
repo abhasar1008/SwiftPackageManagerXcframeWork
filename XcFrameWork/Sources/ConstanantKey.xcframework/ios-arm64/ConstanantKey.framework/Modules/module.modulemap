@@ -1,0 +1,11 @@
+framework module ConstanantKey {
+  umbrella header "ConstanantKey.h"
+  export *
+
+  module * { export * }
+}
+
+module ConstanantKey.Swift {
+  header "ConstanantKey-Swift.h"
+  requires objc
+}
